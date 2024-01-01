@@ -26,12 +26,12 @@ The goal is to refactor the given churn_notebook.ipynb file following the best c
 
 #### Code Quality
 - Format the refactored code using PEP 8 – Style Guide.
-`autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py
-autopep8 --in-place --aggressive --aggressive churn_library.py`
+`autopep8 --in-place --aggressive --aggressive churn_script_logging_and_tests.py`
+`autopep8 --in-place --aggressive --aggressive churn_library.py`
 
 - Use Pylint for the code analysis looking for programming errors, and scope for further refactoring. 
-`pylint churn_library.py
-pylint churn_script_logging_and_tests.py`
+`pylint churn_library.py`
+`pylint churn_script_logging_and_tests.py`
 
 
 #### churn_library.py
